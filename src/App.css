@@ -3,6 +3,7 @@
 
 body {
     background-image: url('https://i.ytimg.com/vi/5-LyRjHlRgQ/maxresdefault.jpg');
+    background-color: black;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,13 +11,31 @@ body {
     height: 500px;
 }
 
+
+
+
 .top-home-div {
     color: black;
     background-color: teal;
-    border: 3px solid black;
-    max-width: 100rem;
+    border: 30px solid rgba(5, 5, 37, 0.767);
+    max-width: 80rem;
     height: 30rem;
     max-height: 30rem;
-    margin: 0 auto;
+    margin: 15rem auto ;
+
+}
+
+.avatar {
+    border: 5px solid black;
+    border-radius: 50%;
+}
+
+
+
+
+.second-level-div {
+    max-width: 35rem;
+    margin-top: 27rem;
+    border: 10px solid rgba(5, 5, 37, 0.767);
 
 }
