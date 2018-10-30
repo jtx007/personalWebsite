@@ -24,6 +24,7 @@ body {
 
 .github-icon {
     max-height: 5rem;
+    border-radius: 50%;
 }
 
 .medium-icon {
@@ -36,7 +37,7 @@ body {
 
 
 .top-container{
-    background-color: teal;
+    background-color: rgba(8, 131, 131, 0.781);
     border: 30px solid rgba(5, 5, 37, 0.767);
     max-width: 80rem;
     height: 30rem;
@@ -64,7 +65,7 @@ body {
 
 .aboutskills-container {
     color: black;
-    background-color: teal;
+    background-color: rgba(8, 131, 131, 0.781);
     height: 30rem;
     max-height: 30rem;
     border: 5px solid black;
@@ -72,7 +73,7 @@ body {
 
 .self-portrait {
     color: black;
-    background-color: teal;
+    background-color: rgba(8, 131, 131, 0.781);
     height: 30rem;
     max-height: 30rem;
     text-align: center;
@@ -108,7 +109,7 @@ body {
 
 .project {
     color: black;
-    background-color: teal;
+    background-color: rgba(8, 131, 131, 0.781);
     height: 30rem;
     max-height: 30rem;
     border: 5px solid black;
