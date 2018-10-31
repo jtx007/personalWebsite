@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import SkillsContainer from './SkillsContainer'
 
 export default class AboutContainer extends Component {
     render () {
@@ -9,7 +10,7 @@ export default class AboutContainer extends Component {
                         <div className="about-me-blurb">
                             <p>Lorem ipsum dolor amet offal ramps vice meh single-origin coffee. Chartreuse lo-fi pinterest farm-to-table literally pop-up. Chicharrones pour-over glossier cronut fingerstache, drinking vinegar hell of. Fingerstache bushwick skateboard ennui, cornhole hella post-ironic activated charcoal lomo 3 wolf moon whatever.</p>
                         </div>
-                
+                        <SkillsContainer/>
                     </div>
                     <div className="self-portrait">
                     <h2>some picture of me</h2>

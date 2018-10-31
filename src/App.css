@@ -90,7 +90,6 @@ body {
 }
 
 .about-me-blurb {
-    border: 3px solid red;
     margin: 0 auto;
     max-width: 30rem;
     text-align: center;
@@ -129,3 +128,14 @@ body {
     background-color: rgba(5, 5, 37, 0.767);
 }
 
+.skills-container {
+    margin: 4rem auto;
+    display: grid;
+    max-width: 20rem;
+    grid-gap: 30px;
+    grid-template-columns: 10% 10% 10% 10% 10%;
+}
+
+.icon {
+    height: 3.5rem;
+}
