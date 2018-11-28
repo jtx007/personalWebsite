@@ -8,7 +8,7 @@ export default class AboutContainer extends Component {
                     <div className="aboutskills-container">
                             <h2>About Me</h2>
                         <div className="about-me-blurb">
-                            <p>Gamer, Fashion Enthusiast, and coder.  After working at a reputable tech company,  I got exposure to programming and have been hooked since.</p>
+                            <p>Gamer, Fashion Enthusiast, and coder.  After working at a reputable tech company,  I got exposure to programming and have been hooked since. Here's my skillset.</p>
                         </div>
                         <SkillsContainer/>
                     </div>

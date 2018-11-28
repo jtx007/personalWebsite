@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://jtx007.github.io/personalWebsite",
   "dependencies": {
+    "animate.css": "^3.7.0",
     "gh-pages": "^2.0.1",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",

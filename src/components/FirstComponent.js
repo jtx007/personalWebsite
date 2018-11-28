@@ -12,7 +12,7 @@ export default class FirstComponent extends Component {
                     <h1>James Thomas</h1>
                     <h2>Software Engineer | Full Stack Web Developer</h2>
                     <div className="intro-blurb">
-                        <p>Lorem ipsum dolor amet offal ramps vice meh single-origin coffee. Chartreuse lo-fi pinterest farm-to-table literally pop-up. Chicharrones pour-over glossier cronut fingerstache, drinking vinegar hell of. Fingerstache bushwick skateboard ennui, cornhole hella post-ironic activated charcoal lomo 3 wolf moon whatever.</p>
+                        <p>After working at a reputable tech company, I was introduced to programming and have been hooked ever since. I enjoy working in React.js and Ruby on Rails and building user intuitive applications. I hope that the work I do can impact communities in a positive way. My strongest trait is empathy. I hope to be able to understand people of different demographics in a tech-driven world.</p>
                     </div>
                 </div>
                 
