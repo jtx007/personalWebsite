@@ -7,7 +7,7 @@ export default class FirstComponent extends Component {
         return (
         <div>
             
-                <div className="top-container">
+                <div className="top-container animated bounceInDown">
                     <img className="avatar" src={avatar} alt="avatar" />
                     <h1>James Thomas</h1>
                     <h2>Software Engineer | Full Stack Web Developer</h2>
