@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import SkillsContainer from './SkillsContainer'
-
+import temporaryProfilePicture from '../temporaryProfilePicture.jpeg'
 export default class AboutContainer extends Component {
     render () {
         return (
@@ -13,7 +13,7 @@ export default class AboutContainer extends Component {
                         <SkillsContainer/>
                     </div>
                     <div className="self-portrait">
-                    <h2>some picture of me</h2>
+                        <img className="portrait" alt="James' face" src={temporaryProfilePicture}/>
                     </div>
             </div>
         )
