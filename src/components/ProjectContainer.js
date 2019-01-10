@@ -11,6 +11,8 @@ export default class ProjectContainer extends Component {
                     <div className="project-container">
                         <div className="project">
                             <p>Connosieur</p>
+                            <br/>
+                            <p> A web application for sneaker enthusiasts to gather and talk about all things sneaker related as well as show off their personal owns and wants</p>
                         </div>
                         <div className="project">
                             <p>Project 2</p>
