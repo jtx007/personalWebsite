@@ -140,7 +140,14 @@ body {
 }
 
 .portrait {
-    opacity: 10%;
+    
     height: 30rem;
     width: 35rem;
+}
+
+.project-picture {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    height: 10rem;
+    width: 15rem;
 }
