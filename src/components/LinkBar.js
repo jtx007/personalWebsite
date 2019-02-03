@@ -7,9 +7,18 @@ export default class LinkBar extends Component {
     render () {
         return (
             <div className="link-bar"> 
-                <a href="https://github.com/jtx007"><img className="github-icon" alt="github" src={githubicon} /></a>
-                <a href="https://medium.com/@jamesjacobthomas7"><img className="medium-icon" alt="Medium" src={mediumicon} /></a>
-                <a href="https://www.linkedin.com/in/james-thomas007/"><img className="linkedin-icon" alt="Linkedin" src={linkedinicon} /></a>
+                <div className="icon-link">
+                    <a href="https://github.com/jtx007"><img className="icon-img" alt="github" src={githubicon}/></a>
+                    <p className="nav-icon-title">Github</p>
+                </div>
+                <div className="icon-link">
+                    <a href="https://medium.com/@jamesjacobthomas7"><img className="icon-img" alt="Medium" src={mediumicon} /></a>
+                    <p className="nav-icon-title">Medium</p>
+                </div>
+                <div className="icon-link">
+                    <a href="https://www.linkedin.com/in/james-thomas007/"><img className="icon-img" alt="Linkedin" src={linkedinicon} /></a>
+                    <p className="nav-icon-title">Linkedin</p>
+                </div>
             </div>
         )
     }

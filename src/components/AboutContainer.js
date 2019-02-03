@@ -12,7 +12,7 @@ export default class AboutContainer extends Component {
                         </div>
                         <SkillsContainer/>
                     </div>
-                    <div className="self-portrait">
+                    <div className="self-portrait-container">
                         <img className="portrait" alt="James' face" src={temporaryProfilePicture}/>
                     </div>
             </div>

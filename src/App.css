@@ -1,39 +1,78 @@
 
-
+html {
+    background: url('https://i.ytimg.com/vi/5-LyRjHlRgQ/maxresdefault.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
 
 body {
-    background-image: url('https://i.ytimg.com/vi/5-LyRjHlRgQ/maxresdefault.jpg');
-    background-color: black;
+    /* background-image: url('https://i.ytimg.com/vi/5-LyRjHlRgQ/maxresdefault.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
+    background-size: cover; */
+    height: 100%;
+    font-family: futura-pt,
+    sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: black;
+    margin: 0px;
 }
 
 .link-bar {
-    padding-top: 3rem;
-    padding-left: 5rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 0; 
+    border-radius: 60px;
+    border: 3px solid black;
     display: grid;
     align-content: center;
-    grid-template-columns: 33% 33% 33%;
-    margin: 0 auto;
+    grid-template-columns: 10rem 10rem 10rem;
+    margin: 2rem auto;
     max-width: 30rem;
+    text-align: center;
+    background-color: rgba(68, 224, 177, 0.733);
+    
 }
 
-.github-icon {
-    max-height: 5rem;
-    border-radius: 50%;
+.icon-link {
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
 }
 
-.medium-icon {
-    max-height: 5rem;
+.icon-link:hover .nav-icon-title {
+    color: rgba(11, 11, 82, 0.781);
+    visibility: visible;
 }
 
-.linkedin-icon {
-    max-height: 5rem;
+.icon-img {
+    max-height: 2rem;
 }
+
+.nav-icon-title {
+    margin: 0px;
+    visibility: hidden;
+    
+}
+
+
+
+a:hover {
+    text-decoration: none;
+
+}
+
+.container:hover .github-icon {
+    opacity: 0.3;
+}
+
+
 
 
 .top-container{
@@ -42,7 +81,7 @@ body {
     max-width: 80rem;
     height: 30rem;
     max-height: 30rem;
-    margin: 0 auto ;
+    margin: 0 auto;
     text-align: center;
 
 }
@@ -68,19 +107,28 @@ body {
     background-color: rgba(8, 131, 131, 0.781);
     height: 30rem;
     max-height: 30rem;
-    border: 5px solid black;
+    border: 5px solid rgba(5, 5, 37, 0.767);
+    
 }
 
-.self-portrait {
+.self-portrait-container {
     color: black;
     background-color: rgba(8, 131, 131, 0.781);
     height: 30rem;
     max-height: 30rem;
     text-align: center;
-    border: 5px solid black;
-
+    border: 5px solid rgba(5, 5, 37, 0.767);
 }
 
+
+.portrait {
+    margin: 2rem auto;
+    text-align: center;
+    height: 25rem;
+    width: 26rem;
+    border: 5px solid black;
+    border-radius: 40rem;
+}
 
 .intro-blurb {
     margin: 0 auto;
@@ -139,15 +187,8 @@ body {
     height: 3.5rem;
 }
 
-.portrait {
-    
-    height: 30rem;
-    width: 35rem;
-}
-
 .project-picture {
-    padding-top: 3rem;
-    padding-bottom: 2rem;
     height: 10rem;
     width: 15rem;
+    border-radius: 10px;
 }
