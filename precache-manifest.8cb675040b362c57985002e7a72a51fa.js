@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/static/media/blitz.2760214c.gif"
   },
   {
-    "revision": "f4d15980cdfe23b47a9b6ccedf74303e",
+    "revision": "30d7fb802b87dd1aed8040121595215f",
     "url": "/index.html"
   }
 ];
