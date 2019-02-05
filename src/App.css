@@ -1,6 +1,5 @@
 
 html {
-    background: url('https://i.ytimg.com/vi/5-LyRjHlRgQ/maxresdefault.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -20,22 +19,24 @@ body {
     sans-serif;
     font-weight: 400;
     font-style: italic;
-    color: black;
+    color: white;
     margin: 0px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background: linear-gradient(275deg, rgba(163, 231, 240, 0.63) 50%, rgba(248, 248, 246, 0.993) 50%)
 }
 
 .link-bar {
     padding-top: 1rem;
     padding-bottom: 0; 
     border-radius: 60px;
-    border: 3px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.226);
     display: grid;
     align-content: center;
     grid-template-columns: 10rem 10rem 10rem;
     margin: 2rem auto;
     max-width: 30rem;
     text-align: center;
-    background-color: rgba(68, 224, 177, 0.733);
     
 }
 
@@ -58,7 +59,7 @@ body {
 .nav-icon-title {
     margin: 0px;
     visibility: hidden;
-    
+    transform: scale(1.4);
 }
 
 
@@ -76,48 +77,61 @@ a:hover {
 
 
 .top-container{
-    background-color: rgba(8, 131, 131, 0.781);
-    border: 30px solid rgba(5, 5, 37, 0.767);
+    background-color: rgb(128, 34, 34);
+    border-radius: 10px;
     max-width: 80rem;
     height: 30rem;
     max-height: 30rem;
     margin: 0 auto;
     text-align: center;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
 
 }
 
 .avatar {
-    border: 5px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.335);
+
     border-radius: 50%;
+    width: 9rem;
     height: 9rem;
     margin-top: 2rem;
 }
 
 .about-and-portrait-container {
     display: grid;
-    grid-template-columns: 50% 50%;
-    border: 30px solid rgba(5, 5, 37, 0.767);
+    grid-template-columns: 50% 49.4%;
+    grid-gap: .5rem;
     max-width: 80rem;
-    margin: 0 auto;
+    margin: .5rem auto;
     text-align: center;
 }
 
 .aboutskills-container {
-    color: black;
-    background-color: rgba(8, 131, 131, 0.781);
+    color: white;
+    background-color: rgb(241, 155, 181);
     height: 30rem;
     max-height: 30rem;
-    border: 5px solid rgba(5, 5, 37, 0.767);
+    border-radius: 10px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
     
 }
 
 .self-portrait-container {
     color: black;
-    background-color: rgba(8, 131, 131, 0.781);
+    background-color: rgb(208, 233, 150);
     height: 30rem;
+    width: inherit;
     max-height: 30rem;
     text-align: center;
-    border: 5px solid rgba(5, 5, 37, 0.767);
+    border-radius: 10px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+
 }
 
 
@@ -145,11 +159,12 @@ a:hover {
 
 
 .projects {
+    padding-top: 2rem;
     text-align: center;
-    background-color: rgba(8, 131, 131, 0.781);
-    border: 30px solid rgba(5, 5, 37, 0.733);
+    background-color: rgb(255, 112, 112);
     max-width: 80rem;
     margin: 0 auto;
+    border-radius: 20px;
 }
 
 .project-container {
@@ -157,6 +172,10 @@ a:hover {
     grid-template-columns: 34% 34% 34%;
     padding-bottom: 3rem;
     padding-left: 4rem;
+    border-radius: 20px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
 }
 
 .project-description {
@@ -170,9 +189,13 @@ a:hover {
     text-align: center;
     height: 35rem;
     max-height: 40rem;
-    border: 5px solid black;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
     max-width: 20rem;
-    background-color: rgba(5, 5, 37, 0.767);
+    background-color: rgb(118, 195, 209);
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
 }
 
 .skills-container {

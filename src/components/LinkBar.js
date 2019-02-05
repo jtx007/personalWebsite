@@ -6,7 +6,7 @@ import mediumicon from '../mediumicon.png'
 export default class LinkBar extends Component {
     render () {
         return (
-            <div className="link-bar"> 
+            <div className="link-bar animated fadeInDownBig delay-1s"> 
                 <div className="icon-link">
                     <a href="https://github.com/jtx007"><img className="icon-img" alt="github" src={githubicon}/></a>
                     <p className="nav-icon-title">Github</p>

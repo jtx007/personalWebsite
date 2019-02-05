@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import avatar from '../avatar.png'
-
+import profilepic from '../temporaryProfilePicture.jpeg'
 
 export default class FirstComponent extends Component {
     render () {
@@ -8,7 +7,7 @@ export default class FirstComponent extends Component {
         <div>
             
                 <div className="top-container animated bounceInDown">
-                    <img className="avatar" src={avatar} alt="avatar" />
+                    <img className="avatar" src={profilepic} alt="avatar" />
                     <h1>James Thomas</h1>
                     <h2>Software Engineer | Full Stack Web Developer</h2>
                     <div className="intro-blurb">

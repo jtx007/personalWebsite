@@ -10,7 +10,7 @@ export default class ProjectContainer extends Component {
                         <p>Here are some of my recent projects that I have worked on, feel free to check them out. </p>
                     </div>
                     <div className="project-container">
-                        <div className="project">
+                        <div className="project animated flipInY delay-3s">
                             <h1>Connosieur</h1>
                                 <a href="https://connosieurfrontend.herokuapp.com/"><img className="project-picture" alt="demopic" src={connosieurgif}/></a>
                             <br/>
@@ -18,14 +18,14 @@ export default class ProjectContainer extends Component {
                             <p><strong><a href>Github</a> | <a href>Live</a></strong></p>
                             
                         </div>
-                        <div className="project">
+                        <div className="project animated flipInY delay-4s">
                             <h1>Blitz</h1>
                         <a href="https://blitzweatherapp.herokuapp.com/"><img className="project-picture" alt="demopic" src={blitzgif} /></a>
                             <p>A weather widget created with <strong>React.js</strong> and <strong>Node.js</strong> with <strong>Express</strong>. Used MapQuest geocoder API to convert physical locations into lat/lng coordinates. Used said coordinates for the DarkSky API to obtain relevant weather data to be rendered to the client</p>
                             <p><strong><a href>Github</a> | <a href>Live</a></strong></p>
                             
                         </div>
-                        <div className="project">
+                        <div className="project animated flipInY delay-5s">
                             <h1>Chatter</h1>
                         </div>
                     </div>

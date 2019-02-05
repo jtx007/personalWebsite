@@ -2,7 +2,7 @@
   "name": "personalwebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jtx007.github.io/personalWebsite",
+  "homepage": "https://www.jamesjacobthomas.com",
   "dependencies": {
     "animate.css": "^3.7.0",
     "gh-pages": "^2.0.1",
