@@ -121,7 +121,7 @@ a:hover {
 }
 
 .self-portrait-container {
-    color: black;
+    color: white;
     background-color: rgb(208, 233, 150);
     height: 30rem;
     width: inherit;
@@ -135,13 +135,25 @@ a:hover {
 }
 
 
-.portrait {
-    margin: 2rem auto;
+.resume-png {
+    margin: 0 auto;
     text-align: center;
-    height: 25rem;
-    width: 26rem;
-    border: 5px solid black;
-    border-radius: 40rem;
+    transition: transform .2s;
+    height: 23rem;
+    width: 18rem;
+}
+
+.resume-png:hover {
+    transform: scale(1.1);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(144, 72, 72)
 }
 
 .intro-blurb {

@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import SkillsContainer from './SkillsContainer'
+import resume from '../resume.png'
+
 export default class AboutContainer extends Component {
     render () {
         return (
@@ -12,6 +14,9 @@ export default class AboutContainer extends Component {
                         <SkillsContainer/>
                     </div>
                     <div className="self-portrait-container animated fadeInRight delay-1s">
+                        <a href="mailto:jamesjacobthomas7@gmail.com"><h2>Contact Me</h2></a>
+                            <a href="https://drive.google.com/file/d/1oeuf1NQpCfW77FwlVZ683iCuz8V0WGQA/view?usp=sharing"><img className="resume-png" alt='' src={resume} /></a>
+                        
                     </div>
             </div>
         )
