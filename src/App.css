@@ -26,6 +26,56 @@ body {
     background: linear-gradient(275deg, rgba(163, 231, 240, 0.63) 50%, rgba(248, 248, 246, 0.993) 50%)
 }
 
+/* MEDIA QUERY START */
+
+@media (max-width: 420px) {
+    .link-bar {
+        padding-top: 1rem;
+        padding-bottom: 0;
+        border-radius: 60px;
+        border: 1px solid rgba(0, 0, 0, 0.226);
+        display: grid;
+        grid-template-columns: 5rem 5rem 5rem;
+        margin: 2rem auto;
+        max-width: 25rem;
+        text-align: center;
+
+    }
+    .top-container {
+        background-color: rgb(173, 3, 3);
+        border-radius: 10px;
+        max-width: 90rem;
+        width: 26rem;
+        padding: 0 auto;
+        font-size: 14px;
+        height: 30rem;
+        max-height: 30rem;
+        margin: 0 auto;
+        text-align: center;
+        -webkit-box-shadow: 0 10px 6px -6px #777;
+        -moz-box-shadow: 0 10px 6px -6px #777;
+        box-shadow: 0 10px 6px -6px #777;
+
+    }
+    .about-and-portrait-container {
+        grid-template-areas: ;
+    }
+
+    .aboutskills-container {
+        color: white;
+        background-color: rgb(241, 155, 181);
+        height: 30rem;
+        max-height: 30rem;
+        border-radius: 10px;
+        -webkit-box-shadow: 0 10px 6px -6px #777;
+        -moz-box-shadow: 0 10px 6px -6px #777;
+        box-shadow: 0 10px 6px -6px #777;
+
+    }
+}
+
+/* MEDIA QUERY STOP */
+
 .link-bar {
     padding-top: 1rem;
     padding-bottom: 0; 
@@ -142,6 +192,9 @@ a:hover {
     transition: transform .2s;
     height: 23rem;
     width: 18rem;
+    max-width: 100%;
+    display: block;
+    height: auto
 }
 
 .resume-png:hover {
