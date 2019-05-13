@@ -15,7 +15,7 @@ export default class AboutContainer extends Component {
                     </div>
                     <div className="self-portrait-container animated fadeInRight delay-1s">
                         <a href="mailto:jamesjacobthomas7@gmail.com"><h2>Contact Me</h2></a>
-                            <a href="https://drive.google.com/file/d/1cc-aj7Lukg2pY5OOsKnLKeXLErfIq5u4/view?usp=sharing"><img className="resume-png" alt='' src={resume} /></a>
+                            <a href="https://drive.google.com/file/d/1iJhAWA2dwN9QEV8WNMiKsUxuuS07_1n3/view"><img className="resume-png" alt='' src={resume} /></a>
                         
                     </div>
             </div>
