@@ -16,10 +16,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover; */
     height: 100%;
-    font-family: 'Quicksand',
+    font-family: 'Rubik',
     sans-serif;
-    font-weight: 400;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.424);
+    font-weight: 500;
+    text-shadow: 1.5px 1.5px rgba(70, 65, 65, 0.26);
     color: white;
     margin: 0px;
     background-position: center bottom;
@@ -27,15 +27,7 @@ body {
     background: linear-gradient(275deg, rgba(163, 231, 240, 0.63) 50%, rgba(248, 248, 246, 0.993) 50%);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-button {
-    font-weight: 500;
-}
+
 
 /* MEDIA QUERY START */
 
@@ -113,6 +105,7 @@ button {
 
 .icon-img {
     max-height: 2rem;
+    margin-bottom: 3px;
 }
 
 .nav-icon-title {
@@ -151,9 +144,9 @@ a:hover {
 
 .avatar {
     max-width: 100%;
-    border-radius: 5px;
+    border-radius: 1rem;
     width: 9.5rem;
-    height: 11rem;
+    height: 12rem;
     margin-top: 2rem;
 }
 
