@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import profilepic from '../temporaryProfilePicture.jpeg'
+import profilepic from '../fitpic.png'
 
 export default class FirstComponent extends Component {
     render () {

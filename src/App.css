@@ -16,15 +16,25 @@ body {
     background-repeat: no-repeat;
     background-size: cover; */
     height: 100%;
-    font-family: futura-pt,
+    font-family: 'Quicksand',
     sans-serif;
     font-weight: 400;
-    font-style: italic;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.424);
     color: white;
     margin: 0px;
     background-position: center bottom;
     background-repeat: no-repeat;
     background: linear-gradient(275deg, rgba(163, 231, 240, 0.63) 50%, rgba(248, 248, 246, 0.993) 50%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+    font-weight: 500;
 }
 
 /* MEDIA QUERY START */
@@ -140,12 +150,10 @@ a:hover {
 }
 
 .avatar {
-    border: 1px solid rgba(0, 0, 0, 0.335);
     max-width: 100%;
-    height: auto;
-    border-radius: 50%;
+    border-radius: 5px;
     width: 9.5rem;
-    height: 9rem;
+    height: 11rem;
     margin-top: 2rem;
 }
 
