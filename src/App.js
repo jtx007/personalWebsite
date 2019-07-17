@@ -12,10 +12,23 @@ class App extends Component {
   componentDidUpdate() {
     ReactDOM.findDOMNode(this).scrollTop = 0
   }
+
+  state = {
+    addShadowClass: false
+  }
+
+  addShadowClass = () => {
+    this.setState({
+      addShadowClass: true
+    })
+  }
+
+
   render() {
+    console.log(this.state.addShadowClass)
     return (
-      <div>
-        <LinkBar/>
+      <div onScroll={this.addShadowClass} >
+        <LinkBar shadowClass={this.state.addShadowClass} />
         <FirstComponent/>
         <AboutContainer/>
         <ProjectContainer/>

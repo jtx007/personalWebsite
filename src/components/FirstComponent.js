@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
-import profilepic from '../fitpic.png'
 
 export default class FirstComponent extends Component {
     render () {
         return (
         <div>
             
-                <div className="top-container animated bounceInDown">
-                    <img className="avatar" src={profilepic} alt="avatar" />
-                    <h1>James Thomas</h1>
-                    <h2>Software Engineer | Full Stack Web Developer</h2>
+                <div className="top-container">
+                    <h2>Hi, I'm </h2>
+                    <h1 className="name">James Thomas</h1>
+                    <h2 className="tagline">I like to make stuff for the web.</h2>
                     <div className="intro-blurb">
-                        <p>After working at a reputable tech company, I was introduced to programming and have been hooked ever since. I enjoy working in React.js and Ruby on Rails and building user intuitive applications. I hope that the work I do can impact communities in a positive way. My strongest trait is empathy. I hope to be able to understand people of different demographics in a tech-driven world.</p>
+                        < p > I'm a Software Engineer based in NYC that specializes in building interesting and intuitive UI experiences.</p>
                     </div>
                 </div>
                 

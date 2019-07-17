@@ -1,25 +1,24 @@
 import React, { Component } from 'react';
-import githubicon from '../githubicon.png'
-import linkedinicon from '../linkedinicon.png'
-import mediumicon from '../mediumicon.png'
+
 
 export default class LinkBar extends Component {
+
+    
+
+    
+
+
+
     render () {
+        console.log(this.props.shadowClass)
         return (
-            <div className="link-bar animated fadeInDownBig delay-1s"> 
-                <div className="icon-link">
-                    <a href="https://github.com/jtx007"><img className="icon-img" alt="github" src={githubicon}/>
-                    <p className="nav-icon-title">Github</p></a>
-                </div>
-                <div className="icon-link">
-                    <a href="https://medium.com/@jamesjacobthomas7"><img className="icon-img" alt="Medium" src={mediumicon} />
-                    <p className="nav-icon-title">Medium</p></a>
-                </div>
-                <div className="icon-link">
-                    <a href="https://www.linkedin.com/in/james-thomas007/"><img className="icon-img" alt="Linkedin" src={linkedinicon} />
-                    <p className="nav-icon-title">Linkedin</p></a>
-                </div>
-            </div>
+            <nav className={`link-bar ${this.props.shadowClass ? "shadow": null}`}> 
+                <a className="nav-link" href="#about-me-blurb">About</a>
+                <a className="nav-link" href="google.com">Work</a>
+                <a className="nav-link" href="mailto:jamesjacobthomas7@gmail.com">Contact</a>
+
+                <button className="button-link"><a href="https://drive.google.com/file/d/1iJhAWA2dwN9QEV8WNMiKsUxuuS07_1n3/view">Resume</a></button>
+            </nav>
         )
     }
 }
