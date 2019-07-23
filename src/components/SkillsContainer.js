@@ -13,15 +13,42 @@ export default class SkillsContainer extends Component {
     render () {
         return (
             <div className="skills-container">
-                <img className="icon" alt="ruby" src={rubyicon}/>
-                <img className="icon" alt="rails" src={railsicon} />
-                <img className="icon" alt="javascript" src={javascripticon}/>
-                <img className="icon" alt="react" src={reacticon} />
-                <img className="icon" alt="sass" src={sassicon} />
-                <img className="icon" alt="html" src={htmlicon} />
-                <img className="icon" alt="css" src={cssicon} />
-                <img className="icon" alt="heroku" src={herokuicon} />
-                <img className="icon" alt="aws" src={awsicon} />
+                <figure>
+                    <img className="icon" alt="ruby" src={rubyicon}/>
+                    <figcaption>Ruby</figcaption>
+                </figure>
+                <figure>
+                    <img className="icon" alt="rails" src={railsicon} />
+                    <figcaption>Ruby On Rails</figcaption>
+                </figure>
+                <figure>
+                    <img className="icon" alt="javascript" src={javascripticon}/>
+                    <figcaption>JavaScript</figcaption>
+                </figure>
+                <figure>
+                    <img className="icon" alt="react" src={reacticon} />
+                    <figcaption>React.js</figcaption>
+                </figure>
+                <figure>
+                    <img className="icon" alt="sass" src={sassicon} />
+                    <figcaption>SASS</figcaption>
+                </figure>
+                <figure>
+                    <img className="icon" alt="html" src={htmlicon} />
+                    <figcaption>HTML</figcaption>
+                </figure>
+                <figure>
+                    <img className="icon" alt="css" src={cssicon} />
+                    <figcaption>CSS</figcaption>
+                </figure>
+                <figure>
+                    <img className="icon" alt="heroku" src={herokuicon} />
+                    <figcaption>Heroku</figcaption>
+                </figure>
+                <figure>
+                    <img className="icon" alt="aws" src={awsicon} />
+                    <figcaption>AWS</figcaption>
+                </figure>
             </div>
         )
     }
