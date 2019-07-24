@@ -5,10 +5,12 @@ import AboutContainer from './components/AboutContainer.js'
 import LinkBar from './components/LinkBar'
 import ProjectContainer from'./components/ProjectContainer'
 import Footer from './components/Footer'
+import Sidebar from './components/Sidebar'
 import './App.css';
 
 class App extends Component {
 
+ 
 
 
 
@@ -20,8 +22,10 @@ class App extends Component {
           <FirstComponent/>
           <AboutContainer/>
           <ProjectContainer/>
+          <Sidebar />
         </div>
         <Footer />
+    
       </div>
       
     )
