@@ -311,8 +311,9 @@ a:hover {
 .footer {
     display: flex;
     justify-content: center;
-    background-color: rgb(20, 4, 4);
+    background-color: rgb(34, 11, 11);
     padding: 20px;
+    box-shadow: -3px -1px 5px 1px rgba(153, 153, 155, 0.342);
 }
 
 .sidebar {
