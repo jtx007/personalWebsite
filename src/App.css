@@ -267,7 +267,6 @@ a:hover {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
-    background: rgba(116, 66, 66, 0.548);
     margin-bottom: 1rem;
     border: 1px solid black;
 
@@ -275,12 +274,14 @@ a:hover {
 
 .project1shadow {
     box-shadow: -52px -22px 0px 3px rgba(44, 87, 83, 0.548);
+    background: rgba(218, 202, 62, 0.719);
+
 
 }
 
 .project2shadow {
         box-shadow: 35px 47px 0px 10px rgba(102, 96, 59, 0.548);
-
+        background: rgba(69, 104, 25, 0.548);
 }
 
 
