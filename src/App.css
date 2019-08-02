@@ -381,7 +381,7 @@ a:hover {
     .sidebar {
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-around;
+        justify-content: space-between;
         position: static;
         width: 70vw;
         margin: 0 auto;
@@ -392,7 +392,7 @@ a:hover {
     .vertical {
         border-left: 3px solid rgba(255, 255, 255, 0.411);
         transform: rotate(90deg);
-        height: 100px;
+        height: 80px;
         left: 50%;
     }
 
