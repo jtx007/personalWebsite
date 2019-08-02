@@ -12,9 +12,7 @@ export default class FirstComponent extends Component {
                     <div className="intro-blurb">
                         < p > I'm a Software Engineer based in NYC that specializes in building interesting and intuitive UI experiences.</p>
                     </div>
-                    <div id="about-me-blurb">
-
-                    </div>
+                    
                 </div>
                 
                 

@@ -18,6 +18,8 @@ export default class AboutContainer extends Component {
     // }   
     render () {
         return (
+            
+
             < div className ="aboutskills-container">
                 <div>
                     < h2 className = "header"> About Me <span className="title-line">⎯⎯⎯⎯⎯⎯⎯</span></h2>
@@ -27,7 +29,6 @@ export default class AboutContainer extends Component {
                     <SkillsContainer/>
                 </div>
                 
-
             </div>
         )
     }
