@@ -36,7 +36,7 @@ body {
 
 
 #about-me {
-    border: 5px solid white;
+    margin-top: 12rem;
 }
 
 .name {
@@ -376,6 +376,13 @@ a:hover {
         "about-container"
         "projects-container"
         "sidebar"
+    }
+
+    .skills-container figure {
+        flex: 0 0 30%;
+        margin-bottom: 2%;
+        margin-left: 1%;
+        margin-right: 1%;
     }
 
     .sidebar {
