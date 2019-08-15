@@ -217,7 +217,17 @@ a:hover {
     margin: 10rem auto;
     box-shadow: 40px 30px 1px 10px rgba(161, 157, 165, 0.37);
     grid-area: about-container;
+    transition: all .2s ease-in-out;
+
+    
 }
+
+.aboutskills-container:hover {
+    transform: translateX(40px);
+ 
+}
+
+
 
 .about-paragraph {
     font-size: 20px;
@@ -298,7 +308,7 @@ a:hover {
 }
 
 .project:hover {
-    transform: translateY(-10px);
+    transform: translateY(-15px);
 }
 
 .project1shadow {
