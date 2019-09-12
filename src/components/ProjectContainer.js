@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import connosieurpic from '../connosieur.png'
 import blitzpic from '../blitz.png'
+import digitaljournalnotes from '../digitaljournalnotes.png'
 export default class ProjectContainer extends Component {
     render() {
         return (
@@ -26,6 +27,23 @@ export default class ProjectContainer extends Component {
                                             <li>HTML/CSS</li>
                                         </ul>
                                         <p><strong><a href="https://www.youtube.com/watch?v=PVA6Xyg6c74&t">Video Demo</a> | <a href="https://github.com/jtx007/ConnosieurFrontEnd">Github</a> | <a href="https://connosieurfrontend.herokuapp.com/">Live</a></strong></p>
+                                    </div>
+                                </div>
+                                <div className="project project3shadow">
+                                    <figure>
+                                        <h1 className="header-for-project">Digital Journal Notes</h1>
+                                        <a href="https://digital-journal-notes.herokuapp.com/"><img className="project-picture" alt="demopic" src={digitaljournalnotes} /></a>
+                                        <br />
+                                    </figure>
+                                    <div className="project-description">
+                                        <p>Full stack web application to log your daily happenings anf thoughts privately. Full CRUD.</p>
+                                        <ul className="tech-used-list">
+                                            <li>React.js</li>
+                                            <li>Semantic-UI</li>
+                                            <li>Ruby On Rails</li>
+                                            <li>JWT</li>
+                                        </ul>
+                                            <p><strong><a href="https://www.youtube.com/watch?v=PVA6Xyg6c74&t">Video Demo</a> | <a href="https://github.com/jtx007/Digital-Journal-Notes">Github</a> | <a href="https://digital-journal-notes.herokuapp.com/">Live</a></strong></p>
                                     </div>
                                 </div>
                                 <div className="project project2shadow">

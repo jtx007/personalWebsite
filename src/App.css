@@ -274,10 +274,14 @@ a:hover {
 
 
 
+
 .projects-header {
     margin: 5rem auto;
     padding-top: 2rem;
     width: 50vw;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
     grid-area: projects-container
 }
 
@@ -301,7 +305,8 @@ a:hover {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
-    margin-bottom: 1rem;
+    margin-bottom: 3.5rem;
+    
     border: 1px solid black;
     transition: all .2s ease-in-out;
 
@@ -319,9 +324,14 @@ a:hover {
 }
 
 .project2shadow {
-        box-shadow: 35px 47px 1px 10px rgba(161, 152, 94, 0.548);
+        box-shadow: -40px 30px 1px 10px rgba(161, 152, 94, 0.548);
         background: rgba(216, 95, 25, 0.705);
 
+}
+
+.project3shadow {
+        box-shadow: 60px -30px 1px 3px rgba(167, 119, 207, 0.548);
+        background: rgba(72, 230, 169, 0.705);
 }
 
 

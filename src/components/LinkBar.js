@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 
-
 export default class LinkBar extends Component {
 
-   
 
     
 
@@ -11,7 +9,7 @@ export default class LinkBar extends Component {
 
     render () {
         return (
-            <nav className="link-bar"> 
+            <nav className="link-bar">
                 <a href="#about-me" className="nav-link">About</a>
                 <a href="#all-projects" className="nav-link">Work</a>
                 <a href="mailto:jamesjacobthomas7@gmail.com" className="nav-link">Contact</a>
