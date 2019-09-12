@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.2598ac23.chunk.css",
-    "main.js": "/static/js/main.9b9b7343.chunk.js",
-    "main.js.map": "/static/js/main.9b9b7343.chunk.js.map",
+    "main.js": "/static/js/main.1bf74964.chunk.js",
+    "main.js.map": "/static/js/main.1bf74964.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.29359674.js",
     "runtime~main.js.map": "/static/js/runtime~main.29359674.js.map",
     "static/js/2.9d6bce7d.chunk.js": "/static/js/2.9d6bce7d.chunk.js",
     "static/js/2.9d6bce7d.chunk.js.map": "/static/js/2.9d6bce7d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cd3088a97d9c55be9bacd5bbdfc364e6.js": "/precache-manifest.cd3088a97d9c55be9bacd5bbdfc364e6.js",
+    "precache-manifest.867d2d27992cc44d1d0e5c836ead89a9.js": "/precache-manifest.867d2d27992cc44d1d0e5c836ead89a9.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.2598ac23.chunk.css.map": "/static/css/main.2598ac23.chunk.css.map",
     "static/media/blitz.png": "/static/media/blitz.6901fe1c.png",
