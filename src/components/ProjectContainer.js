@@ -26,7 +26,7 @@ export default class ProjectContainer extends Component {
                                             <li>Ruby On Rails</li>
                                             <li>HTML/CSS</li>
                                         </ul>
-                                        <p><strong><a href="https://www.youtube.com/watch?v=PVA6Xyg6c74&t">Video Demo</a> | <a href="https://github.com/jtx007/ConnosieurFrontEnd">Github</a> | <a href="https://connosieurfrontend.herokuapp.com/">Live</a></strong></p>
+                                        <p><strong><a href="https://github.com/jtx007/ConnosieurFrontEnd">Github</a> | <a href="https://connosieurfrontend.herokuapp.com/">Live</a></strong></p>
                                     </div>
                                 </div>
                                 <div className="project project3shadow">
@@ -58,7 +58,7 @@ export default class ProjectContainer extends Component {
                                             <li>Node.js</li>
                                             <li>HTML/CSS</li>
                                         </ul>
-                                        <p><strong><a href="https://www.youtube.com/watch?v=e5FhkyYptFE">Video Demo</a> | <a href="https://github.com/jtx007/BlitzWeatherApp">Github</a> | <a href="https://blitzweatherapp.herokuapp.com/">Live</a></strong></p>    
+                                        <p><strong>  <a href="https://github.com/jtx007/BlitzWeatherApp">Github</a> | <a href="https://blitzweatherapp.herokuapp.com/">Live</a></strong></p>    
                                     </div>
                                 </div>
                             </div>
