@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import connosieurpic from '../connosieur.png'
-import blitzpic from '../blitz.png'
-import digitaljournalnotes from '../digitaljournalnotes.png'
+import connosieurpic from '../assets/connosieur.png'
+import blitzpic from '../assets/blitz.png'
+import digitaljournalnotes from '../assets/digitaljournalnotes.png'
 export default class ProjectContainer extends Component {
     render() {
         return (
@@ -67,7 +67,7 @@ export default class ProjectContainer extends Component {
                 </figure>
                 <div className="project-description">
                   <p>
-                    Full stack web application to log your daily happenings anf
+                    Full stack web application to log your daily happenings and
                     thoughts privately. Full CRUD.
                   </p>
                   <ul className="tech-used-list">
