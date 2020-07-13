@@ -51,7 +51,7 @@ export default class SkillsContainer extends Component {
               <figcaption>AWS</figcaption>
             </figure>
             <figure>
-              <img className="icon" alt="python" src={pythonicon} />
+              <img className="icon python" alt="python" src={pythonicon} />
               <figcaption>Python</figcaption>
             </figure>
           </div>

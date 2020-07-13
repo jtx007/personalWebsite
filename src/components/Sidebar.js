@@ -17,7 +17,7 @@ const Sidebar = () => {
       </a>
       <a href="https://dev.to/jtx007">
         <img
-          className="sidebar-icon"
+          className="sidebar-icon dev-icon"
           src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
           alt="jtx007's DEV Profile"
           height="30"
